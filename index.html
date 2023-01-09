@@ -9,20 +9,31 @@
     <title>Film</title> 
 </head>
 <body>
-<header>
-    <header class="header">
-        <div class="header-content">
+    <header class="container">
+        <div class="header__content">
             <a href="index.html" class="header__logo">Film Also</a>
-        </div>
         <form >
             <input type="text" class="header__search" placeholder="Поиск фильмов">
         </form>
+        </div>
     </header>
-</header>
 
 <div class="container">
-    <div class="card"> </div>
+    <div class="movies">
+        <div class="movie">
+            <div class="movie__cover-inner">
+                <img src="https://img.youtube.com/vi/S_Exs6KAGUs/0.jpg" alt="обложка фильма" class = "movie__cover">
+                <div class="movie__cover-dark"></div>
+            </div>
+        <div class="movie__info">
+            <div class="movie__title">Cars</div>
+            <div class="movie__category">action</div>
+            <div class="movie__average  movie__average--green">8</div>
+        </div>    
+        </div>
+    </div>
 </div>
+
 
 <script src="js/app.js"></script>
 </body>
